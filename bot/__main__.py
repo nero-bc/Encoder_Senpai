@@ -130,7 +130,7 @@ if __name__ == "__main__" :
            OUT = f"SUCCESSFULLY ADDED {cr} TO AUTHORISED USERS"
            auth = int(f'{cr}')
            Config.AUTH_USERS.append(auth)
-           await message.reply_text(OUT, quote=True)
+           await message.reply_text(OUT)
        else:
            await message.reply_text("Error")
             
